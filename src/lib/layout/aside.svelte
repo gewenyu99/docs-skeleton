@@ -59,17 +59,34 @@
 													<span class="u-margin-inline-start-16"> databases </span>
 												</a>
 											</li>
+										</ul>
+									</div>
+								</details>
+							</li>
+						</ul>
+					</li>
+					<li class="drop-list-item">
+						<ul class="collapsible">
+							<li class="collapsible-item">
+								<details class="collapsible-wrapper" data-title="Foundations" open>
+									<summary class="collapsible-button u-small" style="padding-inline: 16px">
+										<span class="text">Self-hosting</span>
+										<div class="icon">
+											<span class="icon-cheveron-down" aria-hidden="true" />
+										</div>
+									</summary>
+									<div class="collapsible-content">
+										<ul class="drop-list">
+											<li class="drop-list-item">
+												<a class="drop-button u-capitalize u-small" href="/self-hosting">
+													<span class="u-margin-inline-start-16"> Install </span>
+												</a>
+											</li>
 											<li class="drop-list-item">
 												<a class="drop-button u-capitalize u-small" href="/">
-													<span class="u-margin-inline-start-16"> and more </span>
+													<span class="u-margin-inline-start-16"> databases </span>
 												</a>
 											</li>
-											<li class="drop-list-item">
-												<a class="drop-button u-capitalize u-small" href="/rate-limits">
-													<span class="u-margin-inline-start-16"> and more </span>
-												</a>
-											</li>
-											
 										</ul>
 									</div>
 								</details>
