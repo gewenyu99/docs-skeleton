@@ -9,7 +9,7 @@ Rate limits only apply to Client SDKs. Rate limits do not apply when accessing A
 
 You can check the returned HTTP headers of any API request to see your current rate limit status:
 
-``` HTTP
+```
 HTTP/1.1 200
 Date: Mon, 01 Jul 2013 17:27:06 GMT
 Status: 200
@@ -34,7 +34,7 @@ new Date(1372700873 * 1000) // => Mon Jul 01 2013 13:47:53 GMT-0400 (EDT)
 
 Once you go over the rate limit you will receive an error response:
 
-``` HTTP
+```
 HTTP/1.1 429
 Date: Tue, 20 Aug 2013 14:50:41 GMT
 Status: 429
@@ -57,7 +57,7 @@ If you are exceeding your rate limit, you can likely fix the issue by caching AP
 
 If your application triggers this rate limit, you'll receive an informative response:
 
-``` http
+```
 HTTP/1.1 429
 Content-Type: application/json; charset=utf-8
 Connection: close

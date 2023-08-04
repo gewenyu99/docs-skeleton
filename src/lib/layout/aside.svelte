@@ -64,6 +64,12 @@
 													<span class="u-margin-inline-start-16"> and more </span>
 												</a>
 											</li>
+											<li class="drop-list-item">
+												<a class="drop-button u-capitalize u-small" href="/rate-limits">
+													<span class="u-margin-inline-start-16"> and more </span>
+												</a>
+											</li>
+											
 										</ul>
 									</div>
 								</details>
